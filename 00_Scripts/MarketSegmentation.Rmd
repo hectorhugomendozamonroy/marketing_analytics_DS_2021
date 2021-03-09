@@ -48,13 +48,13 @@ The dataset includes data from 73 students (24 MBAs and 49 undergrads). These st
 Let us start by reading the data. Remember to start by setting the appropriate directory using the following code
 
 ```{r,eval=FALSE}
-setwd("your_directory")
+###setwd("")
 ```
 
-We can now read the raw data: 
+We can now read the raw data (Provide the appropiate directory!!!!): 
 
 ```{r,eval=TRUE,echo=TRUE}
-seg_data <- read.csv(file = "SegmentationData.csv",row.names=1)
+seg_data <- read_csv(file = "/Documents and Settings/Admin/Documents/Business_Science/marketing_analytics_DS_2021/00_Data/SegmentationData.csv")
 head(seg_data)
 ```
 
